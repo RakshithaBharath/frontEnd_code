@@ -1,0 +1,170 @@
+What is the Web? 
+The Web (World Wide Web) is a system that allows you to view and share information over the internet. ]
+
+It works by transferring files, like text, images, and videos, between computers. 
+
+When you use a web browser (like Chrome or Firefox), you can open websites and move between pages by clicking on links.
+
+These files are transferred using the internet, and the web makes it easy for people to access and share all kinds of information globally.
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+Basic history of the web?
+It is a project created, by Tim Berner Lee in 1989, for researchers to work together effectively at CERN. It is an organization, named the World Wide Web Consortium (W3C), which was developed for further development of the web. This organization is directed by Tim Berner’s Lee, aka the father of the web.  CERN, where Tim Berners worked, is a community of more than 1700 researchers from more than 100 countries. These researchers spend a little time on CERN and the rest of the time they work at their colleges and national research facilities in their home country, so there was a requirement for solid communication so that they can exchange data. 
+
+1989: The World Wide Web was invented by Tim Berners-Lee, a British computer scientist working at CERN (European Organization for Nuclear Research). He wanted a way for researchers to easily access and share documents.
+
+1990-1991: Berners-Lee created the first web browser, web server, and wrote the first webpage, marking the beginning of the web. The first website, which explained what the web was, went live in 1991.
+
+1993: The release of the Mosaic web browser made the web more popular because it allowed people to view both text and images on the same page. This made browsing easier and more visually engaging.
+
+1994: Netscape was founded and released its web browser, which became the most popular at that time, helping the web grow rapidly.
+
+1990s: More websites were created, search engines like Yahoo and Google appeared, and the web started becoming a common part of everyday life.
+
+2000s: The web became more interactive with the rise of social media (e.g., Facebook, Twitter) and e-commerce (e.g., Amazon, eBay). Web technologies like JavaScript and CSS helped build more dynamic and user-friendly websites.
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+Difference between the internet and the web.
+1. The Internet:
+Definition: The Internet is a global network of interconnected computers and other devices that communicate with each other. It includes all of the infrastructure, hardware, and protocols that allow devices to exchange information.
+Components: Includes data centers, servers, routers, cables, satellites, and a wide range of communication technologies.
+Function: Enables a variety of services like email, file sharing, online gaming, streaming, messaging apps, and, most importantly, the Web.
+History: Predates the Web, starting in the 1960s with projects like ARPANET.
+2. The Web (World Wide Web):
+Definition: The Web is a service that runs on the Internet, allowing users to access and interact with websites using a browser.
+Components: Primarily includes websites, web pages, and links, all of which are accessed via the Hypertext Transfer Protocol (HTTP) or its secure variant (HTTPS).
+Function: It is a system of interlinked documents and media that can be navigated using hyperlinks. The Web is where you view and interact with things like social media, blogs, and e-commerce sites.
+History: Developed by Tim Berners-Lee in 1989 and became widely accessible in the 1990s.
+Summary:
+The Internet is the underlying network infrastructure, while the Web is one of the services that operates on top of it, providing access to websites. The Internet supports various other services, while the Web focuses on documents, media, and interactive content via browsers.
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+Explain browsers and how they function.
+A browser is a software application that gives access to information on the World Wide Web. When a user asks for a particular website, the web browser fetches the required content from a web server. And then, it displays the resulting web page on the user’s device.
+
+In computer science browser is an application or program that allows access to web pages, And also surfs a computer network. Whereas mainly the Internet, either from personal computers or mobile devices.
+
+It communicates through the HTTP protocol, with a web server, which asks for a file in HTML code. And also which will be interpreted by the browser to be displayed on the screen to the user’s device.
+
+Functions of Browser
+The role of the [browser] is to enable the user to view web pages and all their components. Components such as documents, text, images, videos, audios, hyperlinks, etc. Through the [browser], the user can perform multiple activities:
+
+Send and receive emails
+Access web pages and social networks
+Select and save your favorite pages
+Print documents
+Keep records of your activity
+Store information in the cloud
+Install applications, etc.
+
+Popular Web Browsers:
+Google Chrome: Known for speed and a clean interface, it is built on the Chromium project and uses the Blink rendering engine.
+Mozilla Firefox: Focuses on privacy and open-source principles, using the Gecko engine.
+Apple Safari: Optimized for macOS and iOS devices, using the WebKit engine.
+Microsoft Edge: Based on Chromium, with integration into Windows features and services.
+
+How Browsers Work:
+Step-by-Step Functioning of Browsers:
+
+1. User Input:
+
+A user enters a URL (like www.example.com) or clicks a link. The browser extracts the protocol (e.g., HTTP or HTTPS), domain name, and resource location.
+2. DNS Lookup:
+
+The browser sends a request to a DNS server to resolve the domain name (e.g., www.example.com) into an IP address that identifies the web server hosting the website.
+3. Sending HTTP Request:
+
+The browser connects to the web server using the resolved IP address and sends an HTTP or HTTPS request asking for the web page (e.g., GET /index.html HTTP/1.1).
+4. Server Response:
+
+The server processes the request and responds with an HTTP response, which typically contains the HTML document, CSS, JavaScript files, and other media files.
+5. Rendering Process:
+
+The rendering engine takes the HTML, parses it into a Document Object Model (DOM), and then uses CSS and JavaScript to apply styles and interactive behavior. It constructs the page and paints it on the screen.
+Images and other resources are fetched concurrently to be displayed.
+6. JavaScript Execution:
+
+The JavaScript engine runs any embedded or linked JavaScript files, which can dynamically update the content, interact with the user, or modify the page (e.g., showing popups, updating the cart in an e-commerce site).
+7. Rendering Updates:
+
+As JavaScript executes and interacts with the page, the rendering engine continuously updates the page to reflect any changes.
+8. Closing/Updating:
+
+The user can interact with the page until it’s closed. The browser can cache resources to make future requests faster and uses various optimizations to improve performance (like pre-fetching).
+
+-----------------------------------------------------------------------------------------------------------------------------------
+What is a Web Application
+A Web Application is a software application that runs on a web server and is accessed through a web browser over the Internet or an intranet. Unlike traditional desktop applications, which must be installed locally on a device, web applications are delivered to users via the web, allowing them to interact with the application using standard browsers like Chrome, Firefox, Safari, or Edge.
+
+Key Characteristics of a Web Application:
+Accessible via Web Browser:
+
+Users can access the application using any device (desktop, mobile, tablet) with a browser, without needing to install software locally.
+Client-Server Architecture:
+
+A web application typically follows a client-server model where:
+The client is the web browser on the user's device.
+The server hosts the web application and processes data.
+The client sends requests (e.g., clicking a button), and the server responds with the necessary data (e.g., displaying a new page).
+Interactivity and Dynamic Content:
+
+Web applications allow users to interact with data dynamically. This is typically done using JavaScript, which makes it possible for pages to update in real-time without needing to refresh the entire page.
+Examples: Submitting forms, updating dashboards, viewing personalized content.
+Uses HTML, CSS, and JavaScript:
+
+HTML (Hypertext Markup Language) structures the content.
+CSS (Cascading Style Sheets) handles the visual presentation of the application.
+JavaScript is responsible for interactive and dynamic elements on the client side.
+Responsive Design:
+
+Many modern web applications use responsive design techniques to ensure that they look and function properly across various devices and screen sizes.
+Backend Technologies:
+
+A web application typically has a backend (server-side) that handles the logic, database management, and data processing. Backend languages and frameworks like Node.js, Python (Django/Flask), Ruby on Rails, or PHP are commonly used.
+The server can also integrate with databases (e.g., MySQL, PostgreSQL, MongoDB) to store and manage data.
+
+------------------------------------------------------------------------------------------------------------------------
+Differentiate between static websites and dynamic web applications.
+Static Web Applications:
+
+Simple web pages that display the same content to all users without dynamic interaction.
+Example: A basic portfolio or brochure site.
+Dynamic Web Applications:
+
+Applications that process user input and provide dynamic content.
+Example: Social media platforms, e-commerce sites where users can log in, view personalized data, or make purchases.
+
+----------------------------------------------------------------------------------------------------------------------
+Explain real-world examples (e.g., Twitter vs a static blog).
+Comparison: Twitter vs. Static Blog
+Feature	                      Twitter (Dynamic Web App)	                               Static Blog
+Content Type	        Dynamic, personalized for each user	                     Static, the same for every visitor
+User Interaction	    Highly interactive (post, like, comment, follow)	     Read-only (no interaction with content)
+Real-time Updates	    Yes, content updates in real-time without reloads	     No real-time updates
+User Authentication	    Users log in and have unique profiles	                 No authentication needed
+Server-side Logic	    Complex server-side logic handles real-time data	     Minimal server logic, mainly for serving pages
+Personalization	        Highly personalized for each user	                     No personalization
+Example Technologies	Frontend: React.js, Backend: Node.js, Database: MySQL	 Frontend: HTML, CSS, no backend
+Performance	            May take longer to load due to dynamic content	         Fast loading due to static content
+Deployment	            Requires server, database, and API setup	             Can be hosted on simple static servers(like GitHub Pages)
+Data Storage	        Uses a database to store tweets, users, interactions	 No database, only static files
+
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Explain the popularity of mobile apps and why businesses are shifting to mobile-first approaches.?
+Why Mobile Apps Are Popular:
+Widespread Use of Smartphones: Most people use their phones for everything, from shopping to banking.
+Convenience: Apps are fast, easy to use, and can access phone features like the camera or GPS.
+On-Demand Services: People love using apps for quick services like food delivery, rides, and social media.
+Why Businesses Focus on Mobile-First:
+Most People Use Mobile: More than half of web traffic comes from phones, so businesses prioritize mobile users.
+Better User Experience: Mobile apps and sites are faster and more engaging, leading to more sales and customer loyalty.
+Google Ranks Mobile-First: Google gives preference to mobile-friendly websites in search results.
+Mobile Payments: It's easier to make purchases on mobile with options like Apple Pay and Google Pay.
+In short, businesses go mobile-first because that's where their customers are, and it offers a better experience.
+
+--------------------------------------------------------------------------------------------------------------------------------
