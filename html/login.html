@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../CSS/signin.css">
+
+</head>
+
+<body>
+    <div class="sign_in">
+        <div>
+            <a href="amazon_home.html">
+                <img src="https://shorturl.at/xVn10" alt="Amazon.in" class="amazon_logo">
+            </a>
+        </div>
+        <div class="sign_in_box">
+            <h6 class="sign_in_box_header">Sign in</h6>
+            <div class="sign_in_user_tel">
+                <label for="user_name">User Name:</label><br>
+                <input type="text" placeholder="User Name" id="user_name" required>
+            </div>
+            <div class="sign_in_password">
+                <label for="user_password">Password</label>
+                <input type="password" name="user_password" id="user_password" placeholder="At least 6 characters">
+            </div>
+            <button class="verify_button" onclick="log_in()"> Login</button>
+            <div class="sign_in_info">
+                <p class="sign_in_info"></p>
+                By creating an account or logging in, you agree to Amazon’s Conditions of Use and Privacy Policy.
+                </p>
+            </div>
+            <div class="line-text">New to Amazon?</div>
+            <a href="Sign_up.html" class="amazon-sign-up-link">
+            <button class="amazon-btn">Create your Amazon account</button>
+        </a>
+        </div>
+
+    </div>
+    <script src="../Java_script/login.js"></script>
+</body>
+
+</html>
