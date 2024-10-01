@@ -81,12 +81,6 @@
     background-color: #1f1f1f;
 }
 
-.about_card button::after{
-    content: "";
-    background-image: url("https: //shorturl.at/UpERY");
-    margin-left: 30px;
-}
-
-.about_card button:hover{
+.about_card button:hover {
     text-decoration: underline;
 }
