@@ -1,0 +1,92 @@
+* {
+    background-color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.about_main {
+    color: white;
+}
+
+.who_we_are {
+    display: flex;
+    gap: 10px;
+    margin: 50px;
+    padding: 10px;
+    justify-content: center;
+    justify-content: flex-start;
+}
+
+.who_we_are h3 {
+    width: 20%;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.who_we_are p {
+    width: 80%;
+    line-height: 3ch;
+    font-size: 20px;
+    font-weight: 100;
+    margin-right: 50px;
+}
+
+.about_us_cards {
+    display: flex;
+    justify-content: space-around;
+    margin: 70px;
+
+}
+
+.about_card {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #1f1f1f;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: 300px;
+    justify-content: space-between;
+}
+
+.about_card h4 {
+    color: rgb(253, 163, 28);
+    font-size: 22px;
+    background-color: #1f1f1f;
+}
+
+.about_card h4:hover {
+    text-decoration: underline;
+}
+
+.about_card p {
+    background-color: #1f1f1f;
+    line-height: 3ch;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.about_card button {
+    background-color: #1f1f1f;
+    border: 1px solid white;
+    border-radius: 40px;
+    width: 150px;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.about_card a {
+    background-color: #1f1f1f;
+}
+
+.about_card button::after{
+    content: "";
+    background-image: url("https: //shorturl.at/UpERY");
+    margin-left: 30px;
+}
+
+.about_card button:hover{
+    text-decoration: underline;
+}
