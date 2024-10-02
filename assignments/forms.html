@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+
+<body>
+        <form action="" method="get">
+            <table>
+            <tr>
+                <td><label for="First_name">First Name</label></td>
+                <td><input type="text" name="First_name" id="First_name" maxlength="30" pattern="[a-zA-Z]*" required></td>
+            </tr>
+            <tr>
+                <td><label for="last_name">Last Name</label></td>
+                <td><input type="text" name="last_name" id="last_name" maxlength="30" pattern="[a-zA-Z]*" required></td>
+            </tr>
+            <tr>
+                <td><label for="dob">Date of Birth</label></td>
+                <td><input type="date" name="dob" id="dob" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email ID</label></td>
+                <td><input type="email" name="email" id="email"></td>
+            </tr>
+                
+                
+                
+                
+                
+                
+                <label for="tel">Mobile number</label>
+                <input type="tel" name="tel" id="tel" maxlength="10">
+                <br><br>
+
+                <label for="gender">Gender</label>
+                <input type="radio" name="=gender" value="Male">Male
+                <input type="radio" name="=gender" value="Female">Female
+                <br><br>
+                <label for="address">Address</label>
+                <textarea name="address" id="address" rows="5" maxlength="1000"></textarea>
+                <br><br>
+                <label for="City">City</label>
+                <input type="text" name="City" id="City" maxlength="30" pattern="[a-zA-Z]*">
+                <br><br>
+                <label for="pincode">Pincode</label>
+                <input type="number" name="pincode" id="pincode" maxlength="6">
+                <br><br>
+                <label for="State">State</label>
+                <input type="text" name="State" id="State" maxlength="30" pattern="[a-zA-Z]*">
+                <br><br>
+                <label for="Country">Country</label>
+                <input type="text" name="Country" id="Country">
+                <br><br>
+                <label for="hobbies">Hobbies</label>
+                <input type="checkbox" name="hobbies" id="Drawing" value="Drawing">Drawing
+                <input type="checkbox" name="hobbies" id="Singing" value="Singing">Singing
+                <input type="checkbox" name="hobbies" id="Dancing" value="Dancing">Dancing
+                <input type="checkbox" name="hobbies" id="Sketching" value="Sketching">Sketching
+                <input type="checkbox" name="hobbies" id="Others" value="others">Others
+                <input type="text" id="others_value">
+                <br><br>
+               <label for="qualification">Qualification</label>
+               <table>
+                <thead>
+                    <tr>
+                        <th>SI No</th>
+                        <th>Examination</th>
+                        <th>Board</th>
+                        <th>Percentage</th>
+                        <th>Year of Passing</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1.</td>
+                        <td>Class X</td>
+                        <td><input type="text" id="X_board" maxlength="10"></td>
+                        <td><input type="number" id="X_Percentage"></td>
+                        <td><input type="number" id="X_yop" minlength="4" maxlength="4"></td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>Class XII</td>
+                        <td><input type="text" id="XII_board" maxlength="10"></td>
+                        <td><input type="number" id="XII_Percentage"></td>
+                        <td><input type="number" id="XII_yop" minlength="4" maxlength="4"></td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td>Graduation</td>
+                        <td><input type="text" id="Graduation_board" maxlength="10"></td>
+                        <td><input type="number" id="Graduation_Percentage"></td>
+                        <td><input type="number" id="Graduation_yop" minlength="4" maxlength="4"></td>
+                    </tr>
+                    <tr>
+                        <td>4.</td>
+                        <td>Masters</td>
+                        <td><input type="text" id="Masters_board" maxlength="10"></td>
+                        <td><input type="number" id="Masters_Percentage"></td>
+                        <td><input type="number" id="Masters_yop"  minlength="4" maxlength="4"></td>
+                    </tr>
+                </tbody>
+               </table>
+               <label for="course">courses applied for:</label>
+               <label for="BCA">BCA</label>
+               <input type="radio" name="Course" id="BCA" value="BCA">
+            <label for="B.Com">B.Com</label>
+            <input type="radio" name="Course" id="B.Com" value="B.Com">
+            <label for="B.Sc">BSc</label>
+            <input type="radio" name="Course" id="B.Sc" value="B.Sc">
+    </table>
+
+        </form>
+</body>
+
+</html>

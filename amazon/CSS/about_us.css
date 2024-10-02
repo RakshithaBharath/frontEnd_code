@@ -50,6 +50,7 @@
 }
 
 .about_card h4 {
+    text-decoration: none;
     color: rgb(253, 163, 28);
     font-size: 22px;
     background-color: #1f1f1f;
@@ -79,8 +80,72 @@
 
 .about_card a {
     background-color: #1f1f1f;
+    text-decoration: none;
 }
 
 .about_card button:hover {
     text-decoration: underline;
+}
+
+.leadership_summary {
+    display: flex;
+    margin: 50px;
+    background-color: white;
+    gap: 10px;
+}
+
+.leadership_nav {
+    background-color: white;
+    width: 400px;
+    position: sticky;
+    top: 60px;
+    z-index: 1000;
+    padding: 10px;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.leadership_nav a {
+    background-color: white;
+    display: block;
+    color: black;
+    padding: 20px;
+    transition: background-color 0.3s;
+    text-decoration: none;
+
+}
+
+.leadership_nav a:hover {
+    background-color: #f0f0f0;
+    /* Change background on hover */
+}
+
+.leadership_description {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 20px;
+
+}
+
+.child {
+    background-color: white;
+    width: 900px;
+
+}
+
+.div_child {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+
+.leadership_description iframe {
+    width: 90%;
+    height: 500px;
+
 }
