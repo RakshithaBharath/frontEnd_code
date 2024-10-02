@@ -115,3 +115,16 @@ nav {
     color: white;
 
 }
+
+
+.offers {
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    scrollbar-color: transparent transparent;
+}
+
+.offers a img {
+    width: 100vw;
+    height: 500px;
+}
